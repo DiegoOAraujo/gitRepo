@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add axios
+
+PATH: 
+  /home/diego/.local/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/diego/.dotnet/tools:/home/diego/.dotnet/tools
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/diego/workspace/rocketseat/gitRepo/node_modules/cliui/node_modules/ansi-regex'
+
+npm manifest: 
+  {
+    "name": "gitrepo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.19.1",
+      "babel-loader": "^8.0.6"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.7.7",
+      "@babel/core": "^7.7.7",
+      "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+      "@babel/plugin-transform-async-to-generator": "^7.7.4",
+      "@babel/polyfill": "^7.7.0",
+      "@babel/preset-env": "^7.7.7",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb-base": "^14.0.0",
+      "eslint-plugin-import": "^2.19.1",
+      "webpack": "^4.41.5",
+      "webpack-cli": "^3.3.10",
+      "webpack-dev-server": "^3.10.1"
+    },
+    "scripts": {
+      "dev": "webpack-dev-server --mode=development",
+      "build": "webpack --mode=production"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
